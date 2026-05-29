@@ -1,0 +1,20 @@
+{
+  "id": "xmem-openclaw",
+  "name": "XMem OpenClaw",
+  "version": "1.0.0",
+  "description": "XMem memory connector bundle for OpenClaw",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiUrl": {
+        "type": "string",
+        "default": "https://api.xmem.in"
+      },
+      "defaultUserId": {
+        "type": "string",
+        "default": "openclaw_user"
+      }
+    }
+  }
+}
