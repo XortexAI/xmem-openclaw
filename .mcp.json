@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "xmem": {
+      "command": "uvx",
+      "args": [
+        "xmem-mcp"
+      ],
+      "env": {
+        "TRANSPORT": "stdio",
+        "XMEM_API_URL": "https://api.xmem.in",
+        "XMEM_API_KEY": "${XMEM_API_KEY}",
+        "DEFAULT_USER_ID": "openclaw_user"
+      }
+    }
+  }
+}
